@@ -3,7 +3,6 @@ def run_guessing_game
   input = gets.chomp
   target = rand(1...6)
   input == 'exit' ? quit : guess(input, target)    
-  end  
 end
 
 def guess(input, target)
