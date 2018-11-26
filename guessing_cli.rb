@@ -6,7 +6,11 @@ def run_guessing_game
 end
 
 def guess(input, target)
-  puts input.to_i == target ? 'You guessed the correct number!' : "The computer guessed #{target}"
+  if input.to_i == target 
+    puts 'You guessed the correct number!' 
+  else 
+    puts "The computer guessed #{target}"
+  end
 end
 
 def quit
