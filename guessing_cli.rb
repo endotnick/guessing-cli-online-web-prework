@@ -9,7 +9,7 @@ def guess(input, target)
   if input.to_i == target
     puts 'You guessed the correct number!'
   else
-    puts "The computer guessed #{target}"
+    puts "The computer guessed #{target}."
   end
 end
 
