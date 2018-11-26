@@ -10,17 +10,5 @@ def run_guessing_game
       puts "The computer guessed #{target}"
     end
   end
-  puts "Goodbye!"    
-end
-
-def guess(input, target)
-  if input.to_i == target
-    puts 'You guessed the correct number!'
-  else
-    puts "The computer guessed #{target}"
-  end
-end
-
-def quit
-  puts 'Goodbye!'
+  puts "Goodbye!"
 end
